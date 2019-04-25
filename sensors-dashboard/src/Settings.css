@@ -1,0 +1,106 @@
+.container {
+    height: 200px;
+    margin: 10px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.sensor {
+    height: 100px;
+    width: 100px;
+    border: 1px green solid;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sensor__add {
+    border: 1px grey dashed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sensor__add:hover {
+    background-color: lightgrey;
+}
+
+.actuator {
+    height: 100px;
+    width: 100px;
+    border: 1px blue solid;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.actuator__add {
+    border: 1px grey dashed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.actuator__add:hover {
+    background-color: lightgrey;
+}
+
+.label {
+    width: 150px;
+}
+
+.add-sensor-popover {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 275px;
+    max-width: none;
+}
+
+.add-actuator-popover {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    max-width: none;
+}
+
+.add-sensor-form__input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-actuator-form__input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group-text {
+    min-width: 125px;
+    max-width: none;
+}
+
+.add-sensor-form__error {
+    font-size: 0.5em;
+    color: red;
+    height: 10px;
+}
+
+.add-actuator-form__error {
+    font-size: 0.5em;
+    color: red;
+    height: 10px;
+}
+
+
+.add-sensor-form__button {
+    width: 125px;
+}
+
+.add-actuator-form__button {
+    width: 125px;
+}
+

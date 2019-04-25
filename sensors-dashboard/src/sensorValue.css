@@ -1,0 +1,18 @@
+.sensor-value {
+    display: flex;
+    flex-direction: row;
+}
+
+.sensor-value__display {
+    width: 200px;
+}
+
+.sensor-value__light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
